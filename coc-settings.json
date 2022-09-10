@@ -1,0 +1,74 @@
+{
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+
+  "typescript.autoClosingTags": true,
+  "javascript.autoClosingTags": true,
+
+  "eslint.packageManager": "yarn",
+  "eslint.nodePath": "/Users/eliasbobadilla/.nvm/versions/node/v16.17.0/bin/node",
+  "eslint.autoFixOnSave": true,
+
+  "css.validate": false,
+  "less.validate": false,
+  "scss.validate": false,
+  "wxss.validate": false,
+
+  "Lua.diagnostics.globals": ["vim"],
+
+  "suggest.completionItemKindLabels": {
+    "method": "  ",
+    "function": "  ",
+    "variable": "[]",
+    "field": "  ",
+    "typeParameter": "<>",
+    "constant": "  ",
+    "class": "  ",
+    "interface": " 蘒",
+    "struct": "  ",
+    "event": "  ",
+    "operator": "  ",
+    "module": "  ",
+    "property": "  ",
+    "enum": " 練",
+    "reference": "  ",
+    "keyword": "  ",
+    "file": "  ",
+    "folder": " ﱮ ",
+    "color": "  ",
+    "unit": " 塞 ",
+    "snippet": " ",
+    "text": "  ",
+    "constructor": "  ",
+    "value": "  ",
+    "enumMember": "  ",
+    "default": "  "
+  },
+
+  "suggest.highPrioritySourceLimit": 10,
+  "suggest.languageSourcePriority": 95,
+  "suggest.lowPrioritySourceLimit": 90,
+
+  "coc.source.file.priority": 60,
+  "coc.source.buffer.priority": 50,
+  "suggest.triggerCompletionWait": 30,
+
+  "suggest.autoTrigger": "always",
+  "suggest.localityBonus": true,
+  "suggest.fixInsertedWord": true,
+  "suggest.enablePreselect": true,
+  "suggest.removeDuplicateItems": true,
+  "suggest.preferCompleteThanJumpPlaceholder": true,
+  "suggest.defaultSortMethod": "alphabetical",
+  "suggest.triggerAfterInsertEnter": false,
+  "suggest.detailField": "abbr",
+  "suggest.noselect": false,
+
+  "diagnostic.errorSign": " ",
+  "diagnostic.warningSign": " ",
+  "diagnostic.infoSign": "",
+  "diagnostic.hintSign": " ",
+
+  "coc.preferences.formatOnType": true
+}
